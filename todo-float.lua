@@ -51,7 +51,7 @@ local function setup_user_commands(opts)
   end, {})
 end
 
-M.setup = function(opts)
+function M.setup(opts)
   setup_user_commands(opts)
 end
 
